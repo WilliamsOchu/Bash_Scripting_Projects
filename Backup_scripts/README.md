@@ -29,6 +29,9 @@ The scripts can aslo be modifeid to users specific taste so they can be used in 
 If you feel there is need to add scripts for a specific purpose kindly reach out to me and I will ensure the script gets added 
 
 ### Scripts and Functionalities
-backup_AIO.sh = Backup the users desktop, documents and downloads directories into one archive
+backup_AIO.sh = Backup the users desktop, documents and downloads directories into one archive.
 backup1.sh = Backup the users desktop, documents and download directories into separate archives
 backup_ALL_AIO.sh = Backup the entire user directory into one single archive  
+
+### Usage
+Kindly download the script and from your download directory (or copy into any directory of choice) and run ./backup_AIO.sh
