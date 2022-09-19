@@ -38,5 +38,4 @@ Successful message will be displayed once conversion is finished <br>
 basic_audio_conv.sh = Same usage as basic_vid_con.sh <br>
  
 
-### Usage
-Kindly download the script and from your download directory (or copy into any directory of choice) and run ./backup_AIO.sh
+
