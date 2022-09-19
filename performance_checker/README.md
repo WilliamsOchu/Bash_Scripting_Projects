@@ -1,14 +1,14 @@
-# Calc Scripts Read Manual
+# Performance_checker 
 
 ### About the Project
 
-This is simple script capable of performing basic artithmetic operations
+This is simple script capable of logging PC usage info for easy retrieval by SysAdmin or PC owner <br>
+Info such as PC or server uptime, disk usage, memory usage and internet status can be monitored periodically 
 
 ### Techniques Implemented
 
 I made this scripts to implement different phases of me learning bash scripting
 
-I tried to play around with special parameter "$@" and also command substitution 
 
 ### Continuity
 I will continue to add more scripts to this project as I go on
@@ -22,6 +22,6 @@ The scripts can aslo be modifeid to users specific taste so they can be used in 
 If you feel there is need to add scripts for a specific purpose kindly reach out to me and I will ensure the script gets added 
 
 ### Scripts and Functionalities
-calc_script.sh = This scripts takes input from the user during runtime and performs the arithmethic operation as inputed. <br>
-To use kindly run the script followed by the operator and operands. For example: ./calc_script.sh 8+9*7-2 <br>
-The result of the arithmetic operation will be displayed just after you hit the enter button 
+performance_checker.sh = This Script will create a folder called PC_info in your home home directory <br>
+ALl system logs and info will be appended to a file called performance.log in the PC_info folder <br>
+The script can also be handy when monitoring a remote server. To use kindly automate its run-time on the remote server using cron and pull the log file to your home pc using ssh

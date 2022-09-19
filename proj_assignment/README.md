@@ -26,16 +26,17 @@ If you feel there is need to add scripts for a specific purpose kindly reach out
 ### Scripts and Functionalities
 toolkit.sh = This script is run first. Its an executable file that provides the user an option to choose which script to run. The user has the option to choose to run either the <Cruff_script or Organiser_Script>
 
-cruff_remover.sh = This script will remove old redundant files from a specified folder to help free up disk space. To use just enter the folder name or the folder path.
-Enter the max length of time(days) to keep files. Files that fall after this date will be considered redundant and will be deleted from the directory. 
-An interactive message will be displayed showing the file names and a prompt message for you to confirm before deleting each file. A notification message will also be displayed for each file that is deleted or not deleted.
-Kindly ensure you want to delete a particular file before you go ahead. 
+cruff_remover.sh = This script will remove old redundant files from a specified folder to help free up disk space. <br>  To use just enter the folder name or the folder path. <br> 
+Enter the max length of time(days) to keep files. Files that fall after this date will be considered redundant and will be deleted from the directory. <br > 
+An interactive message will be displayed showing the file names and a prompt message for you to confirm before deleting each file. A notification message will also be displayed for each file that is deleted or not deleted. <br>
+Kindly ensure you want to delete a particular file before you go ahead. <br>
 N:B: I will not be held responsible for data lost due to the use of this script
 
-organiser.sh = This script will organise the files in a given folder into a central folder so you can easily see the contents in a central folder. It becomes handy when you have a folder with multiple files and you have difficulties grasping needing files
-The script will organise the files into different folders like images, documents, archives, presentation, audio and many more. Files with extensions related to the sub-folder category will be sent to the sub-folder. Your original files will still be kept in their main directory
-A new folder called Organizer will be created in your home directory and the corresponding sub-folders will be created in this main Organizer folder
-For example .txt, .pdt, .odt will be sent to a sub-folder called documents and files with the extension .png, .jpg, .jpeg will be sent to a subfolder called images. This helps organise the files so that you can easily check for files in their appropriate category
+<br> 
+organiser.sh = This script will organise the files in a given folder into a central folder so you can easily see the contents in a central folder. <br> It becomes handy when you have a folder with multiple files and you have difficulties grasping needing files <br> 
+The script will organise the files into different folders like images, documents, archives, presentation, audio and many more. Files with extensions related to the sub-folder category will be sent to the sub-folder. Your original files will still be kept in their main directory <br>
+A new folder called Organizer will be created in your home directory and the corresponding sub-folders will be created in this main Organizer folder <br>
+For example .txt, .pdt, .odt will be sent to a sub-folder called documents and files with the extension .png, .jpg, .jpeg will be sent to a subfolder called images. This helps organise the files so that you can easily check for files in their appropriate category <br>
 See the file-organiser.png image attached for file list groupings.
 
  
